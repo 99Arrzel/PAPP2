@@ -1,10 +1,8 @@
 import { DateTime } from 'luxon';
-import { BaseModel, BelongsTo, HasMany, HasManyThrough, ManyToMany, belongsTo, column, hasMany, hasManyThrough, manyToMany } from '@ioc:Adonis/Lucid/Orm';
+import { BaseModel, BelongsTo, HasMany, ManyToMany, belongsTo, column, hasMany, manyToMany } from '@ioc:Adonis/Lucid/Orm';
 import Usuario from './Usuario';
 import Imagene from './Imagene';
-import LocalesTienenImagene from './LocalesTienenImagene';
 import CategoriasLocale from './CategoriasLocale';
-import LocalesTienenCategoria from './LocalesTienenCategoria';
 import Menu from './Menu';
 import Review from './Review';
 

@@ -63,5 +63,7 @@ Route.get('/', async () => {
     Route.post('/editar_nombre', 'UsuariosController.editar_nombre');
     Route.post('/editar_foto_perfil', 'UsuariosController.editar_foto_perfil');
   }).middleware('auth');
+
+  APP URL: https://minio.arrzel.com/pollosapp/application-284379c2-4252-42c5-a2ba-4322a7816724.apk?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=LTBz9PSqlAMBD3rSeEd0%2F20230626%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230626T211252Z&X-Amz-Expires=604800&X-Amz-SignedHeaders=host&versionId=null&X-Amz-Signature=de87840f8c7ec0de1dacbd446096ad818ecf3568540a65e35595dbcac9906e2d
   `;
 });
